@@ -24,3 +24,36 @@ header .fa.fa-user {
   color: var(--White);
 }
 /*header styles*/
+/*section hero*/
+#hero {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: start;
+  height: 92vh;
+  background-image: url("./images/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#hero {
+  padding: 2rem;
+}
+
+#hero h2 {
+  color: var(--White);
+  font-size: 4.8rem;
+}
+#hero button {
+  border: none;
+  outline: none;
+  padding: 1.6rem 6.4rem;
+  margin-top: 2rem;
+  cursor: pointer;
+  border-radius: 0 16px 0;
+  font-size: 3.2rem;
+}
+#hero button:hover {
+  background-color: var(--GrayDark);
+  color: var(--White);
+}
