@@ -57,3 +57,34 @@ header .fa.fa-user {
   background-color: var(--GrayDark);
   color: var(--White);
 }
+/*section hero*/
+
+/*section gallery*/
+#gallery {
+  padding: 2rem 1rem;
+}
+#gallery h2 {
+  text-align: center;
+  font-size: 2.4rem;
+  padding-bottom: 1rem;
+}
+#gallery .gallery-box {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 1.6rem;
+}
+#gallery .gallery-item {
+  border-radius: 1rem;
+  overflow: hidden;
+  position: relative;
+}
+#gallery .gallery-item img {
+  max-width: 100%;
+}
+#gallery .gallery-item h3 {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  color: var(--White);
+  font-size: 2.4rem;
+}
