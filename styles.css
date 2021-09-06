@@ -1,0 +1,26 @@
+@import "reset.css";
+:root {
+  --Blue: #3498db;
+  --BlueDrak: #06466d;
+  --Gray: #767676;
+  --GrayLight: #f1f1f1;
+  --GrayDark: #2d2d2d;
+  --White: #fff;
+  --Red: #e52d45;
+}
+
+/*header styles*/
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--Blue);
+  padding: 1.5rem;
+}
+header h1 {
+  color: var(--White);
+}
+header .fa.fa-user {
+  font-size: 2.4rem;
+  color: var(--White);
+}
+/*header styles*/
